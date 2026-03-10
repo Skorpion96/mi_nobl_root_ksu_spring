@@ -1,7 +1,7 @@
 #!/system/bin/sh
 # Step 2: insmod + ksud + trigger Manager
 KSU_DIR="/data/adb/ksu"
-
+PATH=/system/bin:$PATH
 echo "========================================"
 echo " KernelSU 加载 Step 2"
 echo "========================================"
