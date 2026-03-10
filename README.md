@@ -16,9 +16,9 @@
 
 3. **KernelSU Manager** — Installed on the device (`ksu_manager.apk`)
 
-4. **ZygiskSU** — Installed as a KSU module (provides Zygisk environment)
+4. **ZygiskSU** — Installed as a KSU module (provides Zygisk environment, i used [Zygisk-Next](Zygisk-Next-1.3.2-688-2c60cdd-release.zip))
 
-5. **LSPosed** — Installed as a KSU module (`LSPosed-v1.9.2-it-7573-release_1773031523.zip`)
+5. **LSPosed** — Installed as a KSU module ([LSPosed-v1.11.0-7209-zygisk-release](https://github.com/JingMatrix/LSPosed/releases/download/v1.11.0/LSPosed-v1.11.0-7209-zygisk-release.zip))
 
 ## File Description
 
@@ -190,6 +190,7 @@ This script performs the following tasks:
 - **Magisk** **False Detection**: ksu_step2.sh will delete the `$KSU_DIR/bin/magisk` compatibility symbolic link automatically created by ksud; otherwise, the Manager's `hasMagisk()` will falsely report a conflict, causing all modules to become unusable.
 
 **lspd Liveness**: `se` must be used.
+
 
 
 
