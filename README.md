@@ -65,6 +65,10 @@ Automatically completes the following 5 steps:
 
 5. Deploy ksud, execute the boot phase (`post-fs-data → services → boot-completed`), and trigger Manager recognition
 
+You can as well use the macro, open termux and run the following command
+```
+mkdir ~/.termux/tasker && cp /sdcard/ksu.sh ~/.termux/tasker && chmod +x ~/.termux/tasker/ksu.sh
+```
 ### Step 2: LSPosed Repair (If "Not Loaded" is displayed)
 
 After pushing `fix_lspd.sh` to the device, execute it via MQSAS:
@@ -190,6 +194,7 @@ This script performs the following tasks:
 - **Magisk** **False Detection**: ksu_step2.sh will delete the `$KSU_DIR/bin/magisk` compatibility symbolic link automatically created by ksud; otherwise, the Manager's `hasMagisk()` will falsely report a conflict, causing all modules to become unusable.
 
 **lspd Liveness**: `se` must be used.
+
 
 
 
