@@ -65,10 +65,6 @@ Automatically completes the following 5 steps:
 
 5. Deploy ksud, execute the boot phase (`post-fs-data → services → boot-completed`), and trigger Manager recognition
 
-You can as well use the macro, open termux and run the following command
-```
-mkdir ~/.termux/tasker && cp /sdcard/ksu.sh ~/.termux/tasker && chmod +x ~/.termux/tasker/ksu.sh
-```
 ### Step 2: LSPosed Repair (If "Not Loaded" is displayed)
 
 After pushing `fix_lspd.sh` to the device, execute it via MQSAS:
