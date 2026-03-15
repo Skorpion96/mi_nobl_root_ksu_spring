@@ -2,7 +2,9 @@
 safe_exit() {
     (return 0 2>/dev/null) && return "$1" || exit "$1"
 }
+echo "waiting for adb..."
 adb wait-for-device
+echo "rebooting to fastboot"
 adb reboot bootloader
 until fastboot devices | grep -q fastboot; do
     sleep 1
