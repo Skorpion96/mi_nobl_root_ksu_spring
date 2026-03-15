@@ -53,6 +53,11 @@
 ```
 source /sdcard/ksu.sh
 ```
+**or from pc run auto.sh, this will do the full process including the fastboot part all automated**
+
+```
+chmod +x auto.sh && ./auto.sh
+```
 Automatically completes the following 5 steps:
 
 1. Pull `/proc/kallsyms` via mqsas root (KASL address is different each boot)
