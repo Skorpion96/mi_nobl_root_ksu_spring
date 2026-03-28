@@ -16,7 +16,7 @@
 
 3. **KernelSU Manager** — Installed on the device (`ksu_manager.apk`)
 
-4. **ZygiskSU** — Installed as a KSU module (provides Zygisk environment, i used [Zygisk-Next](Zygisk-Next-1.3.2-688-2c60cdd-release.zip))
+4. **ZygiskSU** — Installed as a KSU module (provides Zygisk environment, i used [Zygisk-Next](https://github.com/Dr-TSNG/ZygiskNext/releases/download/v1.3.2/Zygisk-Next-1.3.2-688-2c60cdd-release.zip)
 
 5. **LSPosed** — Installed as a KSU module ([LSPosed-v1.11.0-7209-zygisk-release](https://github.com/JingMatrix/LSPosed/releases/download/v1.11.0/LSPosed-v1.11.0-7209-zygisk-release.zip))
 
